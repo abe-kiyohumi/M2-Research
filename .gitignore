@@ -1,0 +1,20 @@
+/morita-525C5004.docx
+/oteher
+/venv
+
+# --- 研究データ・グラフの除外設定 ---
+imageグラフ/
+imageデータ/
+shunningグラフ/
+shunningデータ/
+simpleグラフ/
+simpleデータ/
+sternグラフ/
+sternデータ/
+
+# もし他に出力されるCSVや画像、NumPy配列があれば拡張子でも保護
+*.csv
+*.png
+*.jpg
+*.npy
+*.pkl

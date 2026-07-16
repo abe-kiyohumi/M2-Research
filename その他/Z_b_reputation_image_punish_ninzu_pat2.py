@@ -17,7 +17,7 @@ alpha = 0.1
 beta = 1.0
 num_steps = 10000
 
-PATTERN = "+0.6+0.2-0.6-0.2+1+0.6"
+PATTERN = "+1+0.2-1-0.2+1+0.2"
 typePATTERN = "image"
 datePATTERN = "imageデータ"
 
@@ -97,8 +97,9 @@ def cal_point(i, j, R, grid, reputationgrid, count_punish, Z, b):
             elif val == 2:
                 NPc += 1
                 
-        p, count_punish = game(i, j, Nc, NPc, R, grid, reputationgrid, neighbors_of_neighbor, count_punish, Z, b)
-        point += p  
+        p, count_punish = game(ni, nj, Nc, NPc, R, grid, reputationgrid, neighbors_of_neighbor, count_punish, Z, b)
+        point += p
+        
     return point, count_punish
 
 def update_reputation(reputationgrid, grid, i, j, ni, nj, Z):
@@ -115,7 +116,7 @@ def update_reputation(reputationgrid, grid, i, j, ni, nj, Z):
     elif g_val == -1:
         diff = -0.6 if cond_nj else -0.2
     else:
-        diff = 1 if cond_nj else 0.6
+        diff = 1.0 if cond_nj else 0.6
         
     reputationgrid[i, j] = np.clip(rep_ij + diff, 0.0, 100.0)
     return reputationgrid
@@ -139,6 +140,7 @@ def simulation(record_index, omega_copy, Z, b):
         
         # 1MCS分(10000回分)の近傍選択インデックス(0~3)を一括生成してPythonの乱数呼び出しを激減させる
         neighbor_choices = np.random.randint(0, 4, size=L*L)
+        
         for _ in range(L*L):
             if check == 0:
                 i, j = indices[_]

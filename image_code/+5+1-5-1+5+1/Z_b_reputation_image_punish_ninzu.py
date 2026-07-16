@@ -1,7 +1,6 @@
 import numpy as np
 import random
 import math
-import matplotlib.pyplot as plt
 import pandas as pd
 import os
 import time
@@ -12,62 +11,24 @@ import shutil
 # 定数設定
 L = 100
 G = 5
+R = 3.0
 K = 0.5
 alpha = 0.1
 beta = 1.0
 num_steps = 10000
 
-PATTERN = "+5+1-5-1+5+1"
+PATTERN = "+1+0.2-1-0.2+1+0.2"
 typePATTERN = "image"
 datePATTERN = "imageデータ"
-glaphPATTERN = "imageグラフ"
 
-OUTPUT_DIR = "../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}"   
-OUTPUT_DIR_C = "../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/C"
-OUTPUT_DIR_CP = "../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/CP"
-OUTPUT_DIR_PUNISH = "../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Punish"
-OUTPUT_DIR_PAYOFF = "../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Payoff"
+OUTPUT_DIR = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}"   
+OUTPUT_DIR_C = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/C"
+OUTPUT_DIR_CP = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/CP"
+OUTPUT_DIR_D = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/D"
+OUTPUT_DIR_PUNISH = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Punish"
+OUTPUT_DIR_PAYOFF = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Payoff"
 
-OUTPUT_DIRS = [OUTPUT_DIR, OUTPUT_DIR_C, OUTPUT_DIR_CP, OUTPUT_DIR_PUNISH, OUTPUT_DIR_PAYOFF]
-
-def append_to_summary(Z, b, rate, Crate, CPrate):
-    FILE_PATHS = {
-    "rate": os.path.join(OUTPUT_DIR, f"summary_rate_omega_r={R}.csv"),
-    "Crate": os.path.join(OUTPUT_DIR_C, f"summary_Crate_omega_r={R}.csv"),
-    "CPrate": os.path.join(OUTPUT_DIR_CP, f"summary_CPrate_omega_r={R}.csv"),
-    }
-    results = {"rate": {"Z": Z, "b": b, "R": R, "Rate": rate}}
-    results_C = {"Crate": {"Z": Z, "b": b, "R": R, "CRate": Crate}}
-    results_CP = {"CPrate": {"Z": Z, "b": b, "R": R, "CPRate": CPrate}} 
-
-    for key, data in results.items():
-        file_path = FILE_PATHS[key]
-        df_rate = pd.DataFrame([data])
-        if not os.path.exists(file_path):
-            df_rate.to_csv(file_path, index=False, mode='w', encoding='utf-8')
-        else:
-            df_rate.to_csv(file_path, index=False, mode='a', header=False, encoding='utf-8')
-
-    for key_C, data_C in results_C.items():
-        file_path_C = FILE_PATHS[key_C]
-        df_rate_C = pd.DataFrame([data_C])
-        if not os.path.exists(file_path_C):
-            df_rate_C.to_csv(file_path_C, index=False, mode='w', encoding='utf-8')
-        else:
-            df_rate_C.to_csv(file_path_C, index=False, mode='a', header=False, encoding='utf-8')
-
-    for key_CP, data_CP in results_CP.items():
-        file_path_CP = FILE_PATHS[key_CP]
-        df_rate_CP = pd.DataFrame([data_CP])
-        if not os.path.exists(file_path_CP):
-            df_rate_CP.to_csv(file_path_CP, index=False, mode='w', encoding='utf-8')
-        else:
-            df_rate_CP.to_csv(file_path_CP, index=False, mode='a', header=False, encoding='utf-8')
-
-def clear_output_directory(directory):
-    if os.path.exists(directory):
-        shutil.rmtree(directory)
-    os.makedirs(directory, exist_ok=True)
+OUTPUT_DIRS = [OUTPUT_DIR, OUTPUT_DIR_C, OUTPUT_DIR_CP, OUTPUT_DIR_D, OUTPUT_DIR_PUNISH, OUTPUT_DIR_PAYOFF]
 
 def initialize_grid():
     values = np.ones(L * L)
@@ -75,275 +36,304 @@ def initialize_grid():
     values[:L * L // 4] = 2
     np.random.shuffle(values)
     grid = values.reshape(L, L)
-    count_C_CP = np.sum(grid==1) + np.sum(grid==2)
-    print("初期協力率:", count_C_CP/(L*L))
     return grid
 
 def initialize_reputationgrid():
-    reputationgrid = np.random.randint(1, 101, size=(L, L))
-    print("初期評判:", np.mean(reputationgrid))
-    return reputationgrid
-
-def cal_sita(NPc, grid, reputationgrid, i, j, count_punish):
-    f = cal_f(Z, reputationgrid, b, i, j)
-    if random.random() < f:
-        sita = NPc
-        count_punish += 1  # 罰が発動したら確実にカウントアップ
-    else:
-        sita = 0
-    return sita, count_punish
+    return np.random.randint(1, 101, size=(L, L)).astype(np.float64)
 
 def cal_f(Z, reputationgrid, b, i, j):
-    if reputationgrid[i, j] < Z:
-        f = ((Z - reputationgrid[i, j]) / Z) ** b
-    else:
-        f = 0
-    return f
+    rep_val = reputationgrid[i, j]
+    if rep_val < Z:
+        return ((Z - rep_val) / Z) ** b
+    return 0.0
 
-def cal_KD(grid, i, j, my_neighbors, reputationgrid):
+def cal_KD(grid, i, j, my_neighbors, reputationgrid, Z):
+    # D（-1）かつ低評判（< Z）の近傍をカウント
     NBD = 0
-    for _ in range(G):
-        if grid[my_neighbors[_]] == -1 and reputationgrid[my_neighbors[_]] < Z:
+    for n in my_neighbors:
+        if grid[n] == -1 and reputationgrid[n] < Z:
             NBD += 1
-    if grid[i, j] == 2:
-        KD = NBD
-    else:
-        KD = 0
-    return KD
+    return NBD if grid[i, j] == 2 else 0
 
-# ★ 最終的な点数計算（戻り値にcount_punishを含めるよう修正）
-def game(i, j, Nc, NPc, R, grid, reputationgrid, my_neighbors, count_punish):
-    if grid[i, j] == 1:
-        return ((R * (Nc + NPc)) / G) - 1, count_punish
-    elif grid[i, j] == 2:
-        KD = cal_KD(grid, i, j, my_neighbors, reputationgrid)
-        return ((R * (Nc + NPc)) / G) - 1 - (alpha * KD), count_punish
+def game(i, j, Nc, NPc, R, grid, reputationgrid, my_neighbors, count_punish, Z, b):
+    # pointx や pointy の計算を分離して高速化
+    g_val = grid[i, j]
+    base_payoff = (R * (Nc + NPc)) / G
+    if g_val == 1:
+        return base_payoff - 1.0, count_punish
+    elif g_val == 2:
+        KD = cal_KD(grid, i, j, my_neighbors, reputationgrid, Z)
+        return base_payoff - 1.0 - (alpha * KD), count_punish
     else:
-        sita, count_punish = cal_sita(NPc, grid, reputationgrid, i, j, count_punish)
-        return ((R * (Nc + NPc)) / G) - (beta * sita), count_punish
+        # D の場合
+        f = cal_f(Z, reputationgrid, b, i, j)
+        if random.random() < f:
+            sita = NPc
+            count_punish += 1
+        else:
+            sita = 0
+        return base_payoff - (beta * sita), count_punish
 
-# ★ 点数計算（引き継がれたcount_punishを正しく累積して返すよう修正）
-def cal_point(i, j, R, grid, reputationgrid, count_punish):
+def cal_point(i, j, R, grid, reputationgrid, count_punish, Z, b):
+    # 近傍の座標リストを事前に展開
+    im1, ip1 = (i-1) % L, (i+1) % L
+    jm1, jp1 = (j-1) % L, (j+1) % L
+    
+    my_neighbors = [(im1, j), (ip1, j), (i, jm1), (i, jp1), (i, j)]     
+    
+    # 近傍のC(1)とCP(2)をキャッシュして、ループ内でのカウントを高速化
+    # 隣接プレイヤー(5箇所分)の各近傍内のC, CP数を計算してgameを適用
     point = 0.0
-    my_neighbors = [
-        ((i-1) % L, j), ((i+1) % L, j),
-        (i, (j-1) % L), (i, (j+1) % L),
-        (i, j)
-    ]     
-    Nc = 0
-    NPc = 0
-    for _ in range(G):
-        if grid[my_neighbors[_]] == 1:
-            Nc += 1
-        elif grid[my_neighbors[_]] == 2:
-            NPc += 1
-    
-    p, count_punish = game(i, j, Nc, NPc, R, grid, reputationgrid, my_neighbors, count_punish)
-    point += p
-    
-    for l in range(G - 1):
-        Nc = 0
-        NPc = 0
-        neii , neij = my_neighbors[l]
-        nei_neighbors = [
-            ((neii-1) % L, neij), ((neii+1) % L, neij),
-            (neii, (neij-1) % L), (neii, (neij+1) % L),
-            (neii, neij)
-        ]  
-        for _ in range(G):
-            if grid[nei_neighbors[_]] == 1:
+    for index, (ni, nj) in enumerate(my_neighbors):
+        nim1, nip1 = (ni-1) % L, (ni+1) % L
+        njm1, njp1 = (nj-1) % L, (nj+1) % L
+        neighbors_of_neighbor = [(nim1, nj), (nip1, nj), (ni, njm1), (ni, njp1), (ni, nj)]
+        
+        Nc, NPc = 0, 0
+        for pos in neighbors_of_neighbor:
+            val = grid[pos]
+            if val == 1:
                 Nc += 1
-            elif grid[nei_neighbors[_]] == 2:
+            elif val == 2:
                 NPc += 1
-
-        p, count_punish = game(i, j, Nc, NPc, R, grid, reputationgrid, nei_neighbors, count_punish)
-        point += p
+                
+        p, count_punish = game(i, j, Nc, NPc, R, grid, reputationgrid, neighbors_of_neighbor, count_punish, Z, b)
+        point += p  
     return point, count_punish
 
-def update_reputation(reputationgrid, grid, i, j, ni, nj):
-    if grid[i, j] == 1:
-        if reputationgrid[ni, nj] >= Z and reputationgrid[i, j] >= Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 5
-        elif reputationgrid[ni, nj] >= Z and reputationgrid[i, j] < Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 5
-        elif reputationgrid[ni, nj] < Z and reputationgrid[i, j] >= Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 1
-        elif reputationgrid[ni, nj] < Z and reputationgrid[i, j] < Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 1
-    elif grid[i, j] == -1:
-        if reputationgrid[ni, nj] >= Z and reputationgrid[i, j] >= Z:
-            reputationgrid[i, j] = reputationgrid[i, j] - 5
-        elif reputationgrid[ni, nj] >= Z and reputationgrid[i, j] < Z:
-            reputationgrid[i, j] = reputationgrid[i, j] - 5
-        elif reputationgrid[ni, nj] < Z and reputationgrid[i, j] >= Z:
-            reputationgrid[i, j] = reputationgrid[i, j] - 1
-        elif reputationgrid[ni, nj] < Z and reputationgrid[i, j] < Z:
-            reputationgrid[i, j] = reputationgrid[i, j] - 1
+def update_reputation(reputationgrid, grid, i, j, ni, nj, Z):
+    g_val = grid[i, j]
+    rep_nj = reputationgrid[ni, nj]
+    rep_ij = reputationgrid[i, j]
+    
+    # 複雑な分岐を整理して判定を削減
+    cond_nj = rep_nj >= Z
+    cond_ij = rep_ij >= Z
+    
+    if g_val == 1:
+        diff = 1 if cond_nj else 0.2
+    elif g_val == -1:
+        diff = -1 if cond_nj else -0.2
     else:
-        if reputationgrid[ni, nj] >= Z and reputationgrid[i, j] >= Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 5
-        elif reputationgrid[ni, nj] >= Z and reputationgrid[i, j] < Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 5
-        elif reputationgrid[ni, nj] < Z and reputationgrid[i, j] >= Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 1
-        elif reputationgrid[ni, nj] < Z and reputationgrid[i, j] < Z:
-            reputationgrid[i, j] = reputationgrid[i, j] + 1
-            
-    if reputationgrid[i, j] > 100: reputationgrid[i, j] = 100
-    if reputationgrid[i, j] < 0: reputationgrid[i, j] = 0
+        diff = 1 if cond_nj else 0.2
+        
+    reputationgrid[i, j] = np.clip(rep_ij + diff, 0.0, 100.0)
     return reputationgrid
 
-
 # モンテカルロステップ
-def simulation(record_index):
+def simulation(record_index, omega_copy, Z, b):
     grid = initialize_grid()
     reputationgrid = initialize_reputationgrid()
+    
+    # 一度だけ生成し使い回す
     indices = np.array([[i, j] for i in range(L) for j in range(L)])
     check = 0
     rast = 0
-    sum_rate = 0; sum_rateC = 0; sum_ratePC = 0
-    count = 0
     
+    # 近傍選択用の乱数をあらかじめ1MCSごとに高速に引けるようにする
+    # random.randint は遅いため、1MCSあたりの選択を1つの乱数配列で事前に準備
     for mcsstep in range(num_steps):
-        # ★ 1MCS内でのプレイヤーi, jそれぞれの罰の合計カウント用変数
         mcs_punish_X = 0
         mcs_punish_Y = 0
         np.random.shuffle(indices)
+        
+        # 1MCS分(10000回分)の近傍選択インデックス(0~3)を一括生成してPythonの乱数呼び出しを激減させる
+        neighbor_choices = np.random.randint(0, 4, size=L*L)
         for _ in range(L*L):
             if check == 0:
                 i, j = indices[_]
-                my_neighbors = [
-                    ((i-1) % L, j), ((i+1) % L, j),
-                    (i, (j-1) % L), (i, (j+1) % L)
-                ] 
-                ni, nj = my_neighbors[random.randint(0,3)]
+                im1, ip1 = (i-1) % L, (i+1) % L
+                jm1, jp1 = (j-1) % L, (j+1) % L
+                
+                # neighbor_choices から素早く取得
+                choice = neighbor_choices[_]
+                if choice == 0: ni, nj = im1, j
+                elif choice == 1: ni, nj = ip1, j
+                elif choice == 2: ni, nj = i, jm1
+                else: ni, nj = i, jp1
                 
                 if grid[i, j] == grid[ni, nj]:
-                    reputationgrid = update_reputation(reputationgrid, grid, i, j, ni, nj)
-                    count_C_CP = np.sum(grid==1) + np.sum(grid==2)
-                    rate = count_C_CP/(L*L) 
-                    Crate = np.sum(grid==1)/(L*L)
-                    CPrate = np.sum(grid==2)/(L*L)
+                    reputationgrid = update_reputation(reputationgrid, grid, i, j, ni, nj, Z)
                     
-                    if rate == 0: check = 1; rast = mcsstep
-                    if rate == 1.0: check = 2; rast = mcsstep
-                    
+                    # ⚠️ 毎ステップ np.sum(grid) を呼ぶのをやめ、1000回に1回記録するときだけ計算するように変更
                     if _ % 1000 == 0 and mcsstep < 10000:
+                        grid_is_1 = (grid == 1)
+                        grid_is_2 = (grid == 2)
+                        grid_is_m1 = (grid == -1)
+                        count_C_CP = np.sum(grid_is_1) + np.sum(grid_is_2)
+                        rate = count_C_CP / (L*L)
+                        
+                        if rate == 0: check = 1; rast = mcsstep
+                        if rate == 1.0: check = 2; rast = mcsstep
+                        
+                        high_rep = (reputationgrid >= Z)
+                        low_rep = (reputationgrid < Z)
+                        
+                        C_high_rate = np.sum(grid_is_1 & high_rep) / (L*L)
+                        C_low_rate  = np.sum(grid_is_1 & low_rep) / (L*L)
+                        CP_high_rate = np.sum(grid_is_2 & high_rep) / (L*L)
+                        CP_low_rate  = np.sum(grid_is_2 & low_rep) / (L*L)
+                        D_high_rate = np.sum(grid_is_m1 & high_rep) / (L*L)
+                        D_low_rate  = np.sum(grid_is_m1 & low_rep) / (L*L)
+                        
                         rates_array[record_index] = rate
-                        Crates_array[record_index] = Crate
-                        CPrates_array[record_index] = CPrate
+                        Crates_array[record_index] = C_high_rate + C_low_rate
+                        CPrates_array[record_index] = CP_high_rate + CP_low_rate
+                        Drates_array[record_index] = D_high_rate + D_low_rate
+                        rate_high_rates_array[record_index] = C_high_rate + CP_high_rate
+                        rate_low_rates_array[record_index] = C_low_rate + CP_low_rate
+                        C_high_rates_array[record_index] = C_high_rate
+                        C_low_rates_array[record_index] = C_low_rate
+                        CP_high_rates_array[record_index] = CP_high_rate
+                        CP_low_rates_array[record_index] = CP_low_rate
+                        D_high_rates_array[record_index] = D_high_rate
+                        D_low_rates_array[record_index] = D_low_rate
                         record_index += 1 
                     continue
                 
-                # ★ 各対戦ごとのカウント用変数をリセットして渡す
                 count_punishX = 0
                 count_punishY = 0
-                pointx, count_punishX = cal_point(i, j, R, grid, reputationgrid, count_punishX)
-                pointy, count_punishY = cal_point(ni, nj, R, grid, reputationgrid, count_punishY)
+                pointx, count_punishX = cal_point(i, j, R, grid, reputationgrid, count_punishX, Z, b)
+                pointy, count_punishY = cal_point(ni, nj, R, grid, reputationgrid, count_punishY, Z, b)
                 
-                # ★ 1MCSの総数へ個別に加算
                 mcs_punish_X += count_punishX
                 mcs_punish_Y += count_punishY
-                if reputationgrid[ni, nj] >= Z:
-                    omega = 1.0
-                else:
-                    omega = 0.1
+                
+                omega = 1.0 if reputationgrid[ni, nj] >= Z else omega_copy
                     
                 if random.random() < omega * (1 / (1 + math.exp((pointx - pointy) / K))):
                     grid[i, j] = grid[ni, nj]
                     
-                reputationgrid = update_reputation(reputationgrid, grid, i, j, ni, nj)
-                count_C_CP = np.sum(grid==1) + np.sum(grid==2)
-                rate = count_C_CP/(L*L) 
-                Crate = np.sum(grid==1)/(L*L)
-                CPrate = np.sum(grid==2)/(L*L)
+                reputationgrid = update_reputation(reputationgrid, grid, i, j, ni, nj, Z)
                 
                 if _ % 1000 == 0 and mcsstep < 10000:
-                    rates_array[record_index] = rate
-                    Crates_array[record_index] = Crate
-                    CPrates_array[record_index] = CPrate
-                    record_index += 1 
+                    grid_is_1 = (grid == 1)
+                    grid_is_2 = (grid == 2)
+                    grid_is_m1 = (grid == -1)
+                    count_C_CP = np.sum(grid_is_1) + np.sum(grid_is_2)
+                    rate = count_C_CP / (L*L)
                     
-                if rate == 0: check = 1; rast = mcsstep
-                if rate == 1.0: check = 2; rast = mcsstep
+                    if rate == 0: check = 1; rast = mcsstep
+                    if rate == 1.0: check = 2; rast = mcsstep
+                    
+                    high_rep = (reputationgrid >= Z)
+                    low_rep = (reputationgrid < Z)
+                    
+                    C_high_rate = np.sum(grid_is_1 & high_rep) / (L*L)
+                    C_low_rate  = np.sum(grid_is_1 & low_rep) / (L*L)
+                    CP_high_rate = np.sum(grid_is_2 & high_rep) / (L*L)
+                    CP_low_rate  = np.sum(grid_is_2 & low_rep) / (L*L)
+                    D_high_rate = np.sum(grid_is_m1 & high_rep) / (L*L)
+                    D_low_rate  = np.sum(grid_is_m1 & low_rep) / (L*L)
+                    
+                    rates_array[record_index] = rate
+                    Crates_array[record_index] = C_high_rate + C_low_rate
+                    CPrates_array[record_index] = CP_high_rate + CP_low_rate
+                    Drates_array[record_index] = D_high_rate + D_low_rate
+                    rate_high_rates_array[record_index] = C_high_rate + CP_high_rate
+                    rate_low_rates_array[record_index] = C_low_rate + CP_low_rate
+                    C_high_rates_array[record_index] = C_high_rate
+                    C_low_rates_array[record_index] = C_low_rate
+                    CP_high_rates_array[record_index] = CP_high_rate
+                    CP_low_rates_array[record_index] = CP_low_rate
+                    D_high_rates_array[record_index] = D_high_rate
+                    D_low_rates_array[record_index] = D_low_rate
+                    record_index += 1 
             else:
                 if _ % 1000 == 0 and mcsstep < 10000:
                     rates_array[record_index] = rate
-                    Crates_array[record_index] = Crate
-                    CPrates_array[record_index] = CPrate
+                    Crates_array[record_index] = C_high_rate + C_low_rate
+                    CPrates_array[record_index] = CP_high_rate + CP_low_rate
+                    Drates_array[record_index] = D_high_rate + D_low_rate
+                    rate_high_rates_array[record_index] = C_high_rate + CP_high_rate
+                    rate_low_rates_array[record_index] = C_low_rate + CP_low_rate
+                    C_high_rates_array[record_index] = C_high_rate
+                    C_low_rates_array[record_index] = C_low_rate
+                    CP_high_rates_array[record_index] = CP_high_rate
+                    CP_low_rates_array[record_index] = CP_low_rate
+                    D_high_rates_array[record_index] = D_high_rate
+                    D_low_rates_array[record_index] = D_low_rate
                     record_index += 1
                 break
                 
-        # ★ 1MCSループが終了した時点で、そのステップの罰総数を時系列配列に格納
         if mcsstep < num_steps:
             punish_X_time_series[mcsstep] = mcs_punish_X
             punish_Y_time_series[mcsstep] = mcs_punish_Y
-                        # 各マスの現在のポイントを計算
+            
             all_payoffs = np.zeros((L, L))
-            temporary_punish = 0  # 一時的な変数を初期化
+            temporary_punish = 0  
             for x in range(L):
                 for y in range(L):
-                    all_payoffs[x, y],temporary_punish = cal_point(x, y, R, grid, reputationgrid, temporary_punish)
+                    all_payoffs[x, y], temporary_punish = cal_point(x, y, R, grid, reputationgrid, temporary_punish, Z, b)
             
-            # 戦略ごとのマスク
             mask_C = (grid == 1)
             mask_D = (grid == -1)
             mask_PC = (grid == 2)
             
-            # 各平均利得を算出して時系列配列に記録（存在しない戦略は0）
             payoff_history_all[mcsstep] = np.mean(all_payoffs)
             payoff_history_C[mcsstep] = np.mean(all_payoffs[mask_C]) if np.any(mask_C) else 0.0
             payoff_history_D[mcsstep] = np.mean(all_payoffs[mask_D]) if np.any(mask_D) else 0.0
             payoff_history_PC[mcsstep] = np.mean(all_payoffs[mask_PC]) if np.any(mask_PC) else 0.0
 
         if mcsstep % 1000 == 0:
-            print(f"ステップ数 {mcsstep} 協力率 {rate:.4f} | 罰回数 i: {mcs_punish_X}, j: {mcs_punish_Y}, | 平均利得 Total: {payoff_history_all[mcsstep]:.2f}, C: {payoff_history_C[mcsstep]:.2f}, D: {payoff_history_D[mcsstep]:.2f}, PC: {payoff_history_PC[mcsstep]:.2f}")
+            print(f"ステップ数 {mcsstep} 協力率 {rate:.4f} | 罰回数 i: {mcs_punish_X}, j: {mcs_punish_Y}")
         if check != 0: break
-        if mcsstep >= 10000:
-            sum_rate += rate
-            sum_rateC += Crate
-            sum_ratePC += CPrate
-            count += 1
             
-    """if check == 0 and num_steps >= 10000: 
-        rate = sum_rate / count
-        Crate = sum_rateC / count
-        CPrate = sum_ratePC / count """
     print("0または1になったステップ数", rast)
-    return rates_array, Crates_array, CPrates_array, rate, Crate, CPrate
-
-# メイン処理
+    return (rates_array, Crates_array, CPrates_array, Drates_array,
+            rate_high_rates_array, rate_low_rates_array,
+            C_high_rates_array, C_low_rates_array, 
+            CP_high_rates_array, CP_low_rates_array, 
+            D_high_rates_array, D_low_rates_array)
+# ==========================================
+# 2. メイン処理（データの定義と保存）
+# ==========================================
 start = time.time()
-for R in [3.0]:
+for omega in [0.1, 0.01]:
+    # R は上部で定義された R = 3.0 を使用
     print("R=", R)
-    for Z in [50,60,70,80,90,95,98]: # ループ内固定値を反映
+    for Z in [50, 60, 70, 80, 90, 95, 98]: 
         print("現在のZ値:", Z, "OUTPUT_DIR:", OUTPUT_DIR)
         
-        ZIP_NAME = f"{typePATTERN}_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_C = f"{typePATTERN}_C_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_CP = f"{typePATTERN}_CP_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_PUNISH = f"punish_history_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_PAYOFF = f"payoff_history_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip" 
+        ZIP_NAME = f"{typePATTERN}_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_C = f"{typePATTERN}_C_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_CP = f"{typePATTERN}_CP_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_D = f"{typePATTERN}_D_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_PUNISH = f"punish_history_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_PAYOFF = f"payoff_history_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip" 
         
         zip_buffer = io.BytesIO()
         zip_buffer_C = io.BytesIO()
         zip_buffer_CP = io.BytesIO()
+        zip_buffer_D = io.BytesIO()
         zip_buffer_P = io.BytesIO()
         zip_buffer_payoff = io.BytesIO()
         
         with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zf, \
              zipfile.ZipFile(zip_buffer_C, 'w', zipfile.ZIP_DEFLATED) as zf_C, \
              zipfile.ZipFile(zip_buffer_CP, 'w', zipfile.ZIP_DEFLATED) as zf_CP, \
+             zipfile.ZipFile(zip_buffer_D, 'w', zipfile.ZIP_DEFLATED) as zf_D, \
              zipfile.ZipFile(zip_buffer_P, 'w', zipfile.ZIP_DEFLATED) as zf_P, \
              zipfile.ZipFile(zip_buffer_payoff, 'w', zipfile.ZIP_DEFLATED) as zf_payoff:
                  
-            for b in [0,0.2,0.4,0.6,0.8,1.0]: # ループ内固定値を反映
+            for b in [0, 0.2, 0.4, 0.6, 0.8, 1.0]:
                 expected_size = 100000
+                
+                # 記録用配列の初期化
                 rates_array = np.zeros(expected_size, dtype=np.float32)
                 Crates_array = np.zeros(expected_size, dtype=np.float32)
                 CPrates_array = np.zeros(expected_size, dtype=np.float32)
+                Drates_array = np.zeros(expected_size, dtype=np.float32)
                 
-                # ★ 1MCSごとの時系列（最大12000要素）を保持する配列を定義
+                rate_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                rate_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                C_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                C_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                CP_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                CP_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                D_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                D_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                
                 punish_X_time_series = np.zeros(num_steps, dtype=np.int32)
                 punish_Y_time_series = np.zeros(num_steps, dtype=np.int32)
                 payoff_history_all = np.zeros(num_steps, dtype=np.float32)
@@ -353,32 +343,61 @@ for R in [3.0]:
                 
                 print("現在のb値:", b)
                 record_index = 0
-                rates_array, Crates_array, CPrates_array, rate, Crate, CPrate = simulation(record_index)
                 
-                # 各種協力率データの追加
+                # 【修正】引数に Z と b を渡すように変更
+                (rates_array, Crates_array, CPrates_array, Drates_array,
+                 rate_high_rates_array, rate_low_rates_array,
+                 C_high_rates_array, C_low_rates_array, 
+                 CP_high_rates_array, CP_low_rates_array, 
+                 D_high_rates_array, D_low_rates_array) = simulation(record_index, omega, Z, b)
+                
+                # 1. 全体協力率データの保存
                 csv_buf = io.StringIO()
-                pd.DataFrame(rates_array, columns=["Cooperation Rate"]).to_csv(csv_buf, index=False)
-                zf.writestr(f"{typePATTERN}_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf.getvalue())
+                pd.DataFrame({
+                    "Cooperation Rate": rates_array,
+                    "Cooperation Rate High": rate_high_rates_array,
+                    "Cooperation Rate Low": rate_low_rates_array
+                }).to_csv(csv_buf, index=False)
+                zf.writestr(f"{typePATTERN}_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf.getvalue())
                 
+                # 2. Cデータ保存
                 csv_buf_C = io.StringIO()
-                pd.DataFrame(Crates_array, columns=["C Rate"]).to_csv(csv_buf_C, index=False)
-                zf_C.writestr(f"{typePATTERN}_C_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_C.getvalue())
+                pd.DataFrame({
+                    "C Rate": Crates_array,
+                    "C Rate High": C_high_rates_array,
+                    "C Rate Low": C_low_rates_array
+                }).to_csv(csv_buf_C, index=False)
+                zf_C.writestr(f"{typePATTERN}_C_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_C.getvalue())
                 
+                # 3. CPデータ保存
                 csv_buf_CP = io.StringIO()
-                pd.DataFrame(CPrates_array, columns=["CP Rate"]).to_csv(csv_buf_CP, index=False)
-                zf_CP.writestr(f"{typePATTERN}_CP_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_CP.getvalue())  
+                pd.DataFrame({
+                    "CP Rate": CPrates_array,
+                    "CP Rate High": CP_high_rates_array,
+                    "CP Rate Low": CP_low_rates_array
+                }).to_csv(csv_buf_CP, index=False)
+                zf_CP.writestr(f"{typePATTERN}_CP_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_CP.getvalue())  
                 
-                # ★ 【追加】1MCSごとのプレイヤーiとプレイヤーjの罰回数データをCSVにまとめて格納
+                # 4. Dデータ保存
+                csv_buf_D = io.StringIO()
+                pd.DataFrame({
+                    "D Rate": Drates_array,
+                    "D Rate High": D_high_rates_array,
+                    "D Rate Low": D_low_rates_array
+                }).to_csv(csv_buf_D, index=False)
+                zf_D.writestr(f"{typePATTERN}_D_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_D.getvalue())
+
+                # 5. 罰履歴データ保存
                 csv_buf_P = io.StringIO()
                 punish_df = pd.DataFrame({
                     "MCS_Step": np.arange(num_steps),
                     "Punish_Count_i": punish_X_time_series,
                     "Punish_Count_j": punish_Y_time_series
                 })
-                
                 punish_df.to_csv(csv_buf_P, index=False)
-                zf_P.writestr(f"punish_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_P.getvalue())
+                zf_P.writestr(f"punish_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_P.getvalue())
 
+                # 6. ペイオフデータ保存
                 csv_buf_Payoff = io.StringIO()
                 payoff_df = pd.DataFrame({
                     "MCS_Step": np.arange(num_steps),
@@ -388,21 +407,26 @@ for R in [3.0]:
                     "Avg_Payoff_PC": payoff_history_PC
                 })
                 payoff_df.to_csv(csv_buf_Payoff, index=False)
-                zf_payoff.writestr(f"payoff_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_Payoff.getvalue())
+                zf_payoff.writestr(f"payoff_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_Payoff.getvalue())
                 
-                del rates_array, Crates_array, CPrates_array, punish_X_time_series, punish_Y_time_series,\
-                    payoff_history_all, payoff_history_C, payoff_history_D, payoff_history_PC
-                #append_to_summary(Z, b, rate, Crate, CPrate) 
+                # メモリ解放
+                del rates_array, Crates_array, CPrates_array, Drates_array, \
+                    rate_high_rates_array, rate_low_rates_array, \
+                    C_high_rates_array, C_low_rates_array, CP_high_rates_array, CP_low_rates_array, \
+                    D_high_rates_array, D_low_rates_array, \
+                    punish_X_time_series, punish_Y_time_series, payoff_history_all, payoff_history_C, payoff_history_D, payoff_history_PC
 
-        # ディレクトリの作成と保存
-        for d in OUTPUT_DIRS: os.makedirs(d, exist_ok=True)
+        # 保存先ディレクトリの作成とファイル出力
+        for d in OUTPUT_DIRS: 
+            os.makedirs(d, exist_ok=True)
         
         save_files = [
             (zip_buffer, ZIP_NAME, OUTPUT_DIRS[0]),
             (zip_buffer_C, ZIP_NAME_C, OUTPUT_DIRS[1]),
             (zip_buffer_CP, ZIP_NAME_CP, OUTPUT_DIRS[2]),
-            (zip_buffer_P, ZIP_NAME_PUNISH, OUTPUT_DIRS[3]),
-            (zip_buffer_payoff, ZIP_NAME_PAYOFF, OUTPUT_DIRS[4])
+            (zip_buffer_D, ZIP_NAME_D, OUTPUT_DIRS[3]),
+            (zip_buffer_P, ZIP_NAME_PUNISH, OUTPUT_DIRS[4]),
+            (zip_buffer_payoff, ZIP_NAME_PAYOFF, OUTPUT_DIRS[5])
         ]
         for buf, filename, target_dir in save_files:
             local_path = os.path.join(target_dir, filename)
@@ -410,7 +434,8 @@ for R in [3.0]:
                 f.write(buf.getvalue())
             print(f"{filename}が{local_path}に保存されました") 
             buf.close()  
-        del csv_buf, csv_buf_C, csv_buf_CP, csv_buf_P, csv_buf_Payoff
+        
+        del csv_buf, csv_buf_C, csv_buf_CP, csv_buf_D, csv_buf_P, csv_buf_Payoff
 
 end = time.time()
 print("実行時間:", end - start, "秒")

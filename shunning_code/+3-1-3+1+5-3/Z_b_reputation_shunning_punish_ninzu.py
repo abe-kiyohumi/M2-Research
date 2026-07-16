@@ -12,6 +12,7 @@ import shutil
 # 定数設定
 L = 100
 G = 5
+R = 3.0
 K = 0.5
 alpha = 0.1
 beta = 1.0
@@ -25,20 +26,23 @@ glaphPATTERN = "shunningグラフ"
 OUTPUT_DIR = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}"   
 OUTPUT_DIR_C = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/C"
 OUTPUT_DIR_CP = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/CP"
+OUTPUT_DIR_D = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/D"
 OUTPUT_DIR_PUNISH = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Punish"
 OUTPUT_DIR_PAYOFF = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Payoff"
 
-OUTPUT_DIRS = [OUTPUT_DIR, OUTPUT_DIR_C, OUTPUT_DIR_CP, OUTPUT_DIR_PUNISH, OUTPUT_DIR_PAYOFF]
+OUTPUT_DIRS = [OUTPUT_DIR, OUTPUT_DIR_C, OUTPUT_DIR_CP, OUTPUT_DIR_D, OUTPUT_DIR_PUNISH, OUTPUT_DIR_PAYOFF]
 
-def append_to_summary(Z, b, rate, Crate, CPrate):
+def append_to_summary(Z, b, rate, Crate, CPrate, Drate):
     FILE_PATHS = {
     "rate": os.path.join(OUTPUT_DIR, f"summary_rate_omega_r={R}.csv"),
     "Crate": os.path.join(OUTPUT_DIR_C, f"summary_Crate_omega_r={R}.csv"),
     "CPrate": os.path.join(OUTPUT_DIR_CP, f"summary_CPrate_omega_r={R}.csv"),
+    "Drate": os.path.join(OUTPUT_DIR_D, f"summary_Drate_omega_r={R}.csv"),
     }
     results = {"rate": {"Z": Z, "b": b, "R": R, "Rate": rate}}
     results_C = {"Crate": {"Z": Z, "b": b, "R": R, "CRate": Crate}}
-    results_CP = {"CPrate": {"Z": Z, "b": b, "R": R, "CPRate": CPrate}} 
+    results_CP = {"CPrate": {"Z": Z, "b": b, "R": R, "CPRate": CPrate}}
+    results_D = {"Drate": {"Z": Z, "b": b, "R": R, "DRate": Drate}} 
 
     for key, data in results.items():
         file_path = FILE_PATHS[key]
@@ -80,7 +84,7 @@ def initialize_grid():
     return grid
 
 def initialize_reputationgrid():
-    reputationgrid = np.random.randint(1, 101, size=(L, L))
+    reputationgrid = np.random.randint(1, 101, size=(L, L)).astype(np.float64)
     print("初期評判:", np.mean(reputationgrid))
     return reputationgrid
 
@@ -195,7 +199,7 @@ def update_reputation(reputationgrid, grid, i, j, ni, nj):
 
 
 # モンテカルロステップ
-def simulation(record_index):
+def simulation(record_index, omega_copy):
     grid = initialize_grid()
     reputationgrid = initialize_reputationgrid()
     indices = np.array([[i, j] for i in range(L) for j in range(L)])
@@ -222,16 +226,31 @@ def simulation(record_index):
                     reputationgrid = update_reputation(reputationgrid, grid, i, j, ni, nj)
                     count_C_CP = np.sum(grid==1) + np.sum(grid==2)
                     rate = count_C_CP/(L*L) 
-                    Crate = np.sum(grid==1)/(L*L)
-                    CPrate = np.sum(grid==2)/(L*L)
-                    
+
                     if rate == 0: check = 1; rast = mcsstep
                     if rate == 1.0: check = 2; rast = mcsstep
                     
                     if _ % 1000 == 0 and mcsstep < 10000:
+                        high_rep = (reputationgrid >= Z)
+                        low_rep = (reputationgrid < Z)
+                        C_high_rate = np.sum((grid == 1) & high_rep) / (L*L)
+                        C_low_rate  = np.sum((grid == 1) & low_rep) / (L*L)
+                        CP_high_rate = np.sum((grid == 2) & high_rep) / (L*L)
+                        CP_low_rate  = np.sum((grid == 2) & low_rep) / (L*L)
+                        D_high_rate = np.sum((grid == -1) & high_rep) / (L*L)
+                        D_low_rate  = np.sum((grid == -1) & low_rep) / (L*L)
                         rates_array[record_index] = rate
-                        Crates_array[record_index] = Crate
-                        CPrates_array[record_index] = CPrate
+                        Crates_array[record_index] = C_high_rate + C_low_rate
+                        CPrates_array[record_index] = CP_high_rate + CP_low_rate
+                        Drates_array[record_index] = D_high_rate + D_low_rate
+                        rate_high_rates_array[record_index] = C_high_rate + CP_high_rate
+                        rate_low_rates_array[record_index] = C_low_rate + CP_low_rate
+                        C_high_rates_array[record_index] = C_high_rate
+                        C_low_rates_array[record_index] = C_low_rate
+                        CP_high_rates_array[record_index] = CP_high_rate
+                        CP_low_rates_array[record_index] = CP_low_rate
+                        D_high_rates_array[record_index] = D_high_rate
+                        D_low_rates_array[record_index] = D_low_rate
                         record_index += 1 
                     continue
                 
@@ -247,30 +266,53 @@ def simulation(record_index):
                 if reputationgrid[ni, nj] >= Z:
                     omega = 1.0
                 else:
-                    omega = 0.1
-                    
+                    omega = omega_copy  
                 if random.random() < omega * (1 / (1 + math.exp((pointx - pointy) / K))):
                     grid[i, j] = grid[ni, nj]
                     
                 reputationgrid = update_reputation(reputationgrid, grid, i, j, ni, nj)
                 count_C_CP = np.sum(grid==1) + np.sum(grid==2)
                 rate = count_C_CP/(L*L) 
-                Crate = np.sum(grid==1)/(L*L)
-                CPrate = np.sum(grid==2)/(L*L)
                 
                 if _ % 1000 == 0 and mcsstep < 10000:
-                    rates_array[record_index] = rate
-                    Crates_array[record_index] = Crate
-                    CPrates_array[record_index] = CPrate
-                    record_index += 1 
+                        high_rep = (reputationgrid >= Z)
+                        low_rep = (reputationgrid < Z)
+                        C_high_rate = np.sum((grid == 1) & high_rep) / (L*L)
+                        C_low_rate  = np.sum((grid == 1) & low_rep) / (L*L)
+                        CP_high_rate = np.sum((grid == 2) & high_rep) / (L*L)
+                        CP_low_rate  = np.sum((grid == 2) & low_rep) / (L*L)
+                        D_high_rate = np.sum((grid == -1) & high_rep) / (L*L)
+                        D_low_rate  = np.sum((grid == -1) & low_rep) / (L*L)
+                        rates_array[record_index] = rate
+                        Crates_array[record_index] = C_high_rate + C_low_rate
+                        CPrates_array[record_index] = CP_high_rate + CP_low_rate
+                        Drates_array[record_index] = D_high_rate + D_low_rate
+                        rate_high_rates_array[record_index] = C_high_rate + CP_high_rate
+                        rate_low_rates_array[record_index] = C_low_rate + CP_low_rate
+                        C_high_rates_array[record_index] = C_high_rate
+                        C_low_rates_array[record_index] = C_low_rate
+                        CP_high_rates_array[record_index] = CP_high_rate
+                        CP_low_rates_array[record_index] = CP_low_rate
+                        D_high_rates_array[record_index] = D_high_rate
+                        D_low_rates_array[record_index] = D_low_rate
+                        record_index += 1 
                     
                 if rate == 0: check = 1; rast = mcsstep
                 if rate == 1.0: check = 2; rast = mcsstep
             else:
                 if _ % 1000 == 0 and mcsstep < 10000:
                     rates_array[record_index] = rate
-                    Crates_array[record_index] = Crate
-                    CPrates_array[record_index] = CPrate
+                    Crates_array[record_index] = C_high_rate + C_low_rate
+                    CPrates_array[record_index] = CP_high_rate + CP_low_rate
+                    Drates_array[record_index] = D_high_rate + D_low_rate
+                    rate_high_rates_array[record_index] = C_high_rate + CP_high_rate
+                    rate_low_rates_array[record_index] = C_low_rate + CP_low_rate
+                    C_high_rates_array[record_index] = C_high_rate
+                    C_low_rates_array[record_index] = C_low_rate
+                    CP_high_rates_array[record_index] = CP_high_rate
+                    CP_low_rates_array[record_index] = CP_low_rate
+                    D_high_rates_array[record_index] = D_high_rate
+                    D_low_rates_array[record_index] = D_low_rate
                     record_index += 1
                 break
                 
@@ -301,8 +343,9 @@ def simulation(record_index):
         if check != 0: break
         if mcsstep >= 10000:
             sum_rate += rate
-            sum_rateC += Crate
-            sum_ratePC += CPrate
+            sum_rateC += C_high_rate + C_low_rate
+            sum_ratePC += CP_high_rate + CP_low_rate
+            sum_rateD += D_high_rate + D_low_rate
             count += 1
             
     """if check == 0 and num_steps >= 10000: 
@@ -310,30 +353,37 @@ def simulation(record_index):
         Crate = sum_rateC / count
         CPrate = sum_ratePC / count """
     print("0または1になったステップ数", rast)
-    return rates_array, Crates_array, CPrates_array, rate, Crate, CPrate
-
-# メイン処理
+    return (rates_array, Crates_array, CPrates_array, Drates_array,
+            rate_high_rates_array, rate_low_rates_array,
+            C_high_rates_array, C_low_rates_array, 
+            CP_high_rates_array, CP_low_rates_array, 
+            D_high_rates_array, D_low_rates_array)
+# ==========================================
+# 2. メイン処理（データの定義と保存）
 start = time.time()
-for R in [3.0]:
+for omega in [0.1, 0.01]:
     print("R=", R)
     for Z in [50,60,70,80,90,95,98]: # ループ内固定値を反映
         print("現在のZ値:", Z, "OUTPUT_DIR:", OUTPUT_DIR)
         
-        ZIP_NAME = f"{typePATTERN}_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_C = f"{typePATTERN}_C_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_CP = f"{typePATTERN}_CP_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_PUNISH = f"punish_history_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip"
-        ZIP_NAME_PAYOFF = f"payoff_history_Z={Z}_r={R}_{PATTERN}_omega=0.1.zip" 
+        ZIP_NAME = f"{typePATTERN}_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_C = f"{typePATTERN}_C_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_CP = f"{typePATTERN}_CP_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_D = f"{typePATTERN}_D_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_PUNISH = f"punish_history_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip"
+        ZIP_NAME_PAYOFF = f"payoff_history_Z={Z}_r={R}_{PATTERN}_omega={omega}.zip" 
         
         zip_buffer = io.BytesIO()
         zip_buffer_C = io.BytesIO()
         zip_buffer_CP = io.BytesIO()
+        zip_buffer_D = io.BytesIO()
         zip_buffer_P = io.BytesIO()
         zip_buffer_payoff = io.BytesIO()
         
         with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zf, \
              zipfile.ZipFile(zip_buffer_C, 'w', zipfile.ZIP_DEFLATED) as zf_C, \
              zipfile.ZipFile(zip_buffer_CP, 'w', zipfile.ZIP_DEFLATED) as zf_CP, \
+             zipfile.ZipFile(zip_buffer_D, 'w', zipfile.ZIP_DEFLATED) as zf_D, \
              zipfile.ZipFile(zip_buffer_P, 'w', zipfile.ZIP_DEFLATED) as zf_P, \
              zipfile.ZipFile(zip_buffer_payoff, 'w', zipfile.ZIP_DEFLATED) as zf_payoff:
                  
@@ -342,8 +392,18 @@ for R in [3.0]:
                 rates_array = np.zeros(expected_size, dtype=np.float32)
                 Crates_array = np.zeros(expected_size, dtype=np.float32)
                 CPrates_array = np.zeros(expected_size, dtype=np.float32)
+                Drates_array = np.zeros(expected_size, dtype=np.float32)
                 
-                # ★ 1MCSごとの時系列（最大12000要素）を保持する配列を定義
+                # 評判別の記録用配列
+                rate_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                rate_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                C_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                C_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                CP_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                CP_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                D_high_rates_array = np.zeros(expected_size, dtype=np.float32)
+                D_low_rates_array = np.zeros(expected_size, dtype=np.float32)
+                
                 punish_X_time_series = np.zeros(num_steps, dtype=np.int32)
                 punish_Y_time_series = np.zeros(num_steps, dtype=np.int32)
                 payoff_history_all = np.zeros(num_steps, dtype=np.float32)
@@ -353,31 +413,55 @@ for R in [3.0]:
                 
                 print("現在のb値:", b)
                 record_index = 0
-                rates_array, Crates_array, CPrates_array, rate, Crate, CPrate = simulation(record_index)
+                
+                # 関数実行
+                (rates_array, Crates_array, CPrates_array, Drates_array,
+                 rate_high_rates_array, rate_low_rates_array,
+                 C_high_rates_array, C_low_rates_array, 
+                 CP_high_rates_array, CP_low_rates_array, 
+                 D_high_rates_array, D_low_rates_array) = simulation(record_index, omega)
                 
                 # 各種協力率データの追加
                 csv_buf = io.StringIO()
-                pd.DataFrame(rates_array, columns=["Cooperation Rate"]).to_csv(csv_buf, index=False)
-                zf.writestr(f"{typePATTERN}_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf.getvalue())
+                pd.DataFrame({
+                    "Cooperation Rate": rates_array,
+                    "Cooperation Rate High": rate_high_rates_array,
+                    "Cooperation Rate Low": rate_low_rates_array
+                }).to_csv(csv_buf, index=False)
+                zf.writestr(f"{typePATTERN}_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf.getvalue())
                 
                 csv_buf_C = io.StringIO()
-                pd.DataFrame(Crates_array, columns=["C Rate"]).to_csv(csv_buf_C, index=False)
-                zf_C.writestr(f"{typePATTERN}_C_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_C.getvalue())
+                pd.DataFrame({
+                    "C Rate": Crates_array,
+                    "C Rate High": C_high_rates_array,
+                    "C Rate Low": C_low_rates_array
+                }).to_csv(csv_buf_C, index=False)
+                zf_C.writestr(f"{typePATTERN}_C_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_C.getvalue())
                 
                 csv_buf_CP = io.StringIO()
-                pd.DataFrame(CPrates_array, columns=["CP Rate"]).to_csv(csv_buf_CP, index=False)
-                zf_CP.writestr(f"{typePATTERN}_CP_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_CP.getvalue())  
+                pd.DataFrame({
+                    "CP Rate": CPrates_array,
+                    "CP Rate High": CP_high_rates_array,
+                    "CP Rate Low": CP_low_rates_array
+                }).to_csv(csv_buf_CP, index=False)
+                zf_CP.writestr(f"{typePATTERN}_CP_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_CP.getvalue())  
                 
-                # ★ 【追加】1MCSごとのプレイヤーiとプレイヤーjの罰回数データをCSVにまとめて格納
+                csv_buf_D = io.StringIO()
+                pd.DataFrame({
+                    "D Rate": Drates_array,
+                    "D Rate High": D_high_rates_array,
+                    "D Rate Low": D_low_rates_array
+                }).to_csv(csv_buf_D, index=False)
+                zf_D.writestr(f"{typePATTERN}_D_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_D.getvalue())
+
                 csv_buf_P = io.StringIO()
                 punish_df = pd.DataFrame({
                     "MCS_Step": np.arange(num_steps),
                     "Punish_Count_i": punish_X_time_series,
                     "Punish_Count_j": punish_Y_time_series
                 })
-                
                 punish_df.to_csv(csv_buf_P, index=False)
-                zf_P.writestr(f"punish_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_P.getvalue())
+                zf_P.writestr(f"punish_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_P.getvalue())
 
                 csv_buf_Payoff = io.StringIO()
                 payoff_df = pd.DataFrame({
@@ -388,11 +472,13 @@ for R in [3.0]:
                     "Avg_Payoff_PC": payoff_history_PC
                 })
                 payoff_df.to_csv(csv_buf_Payoff, index=False)
-                zf_payoff.writestr(f"payoff_Z={Z}_b={b}_r={R}_{PATTERN}_omega=0.1.csv", csv_buf_Payoff.getvalue())
+                zf_payoff.writestr(f"payoff_Z={Z}_b={b}_r={R}_{PATTERN}_omega={omega}.csv", csv_buf_Payoff.getvalue())
                 
-                del rates_array, Crates_array, CPrates_array, punish_X_time_series, punish_Y_time_series,\
-                    payoff_history_all, payoff_history_C, payoff_history_D, payoff_history_PC
-                #append_to_summary(Z, b, rate, Crate, CPrate) 
+                del rates_array, Crates_array, CPrates_array, Drates_array, \
+                    C_high_rates_array, C_low_rates_array, CP_high_rates_array, CP_low_rates_array, \
+                    D_high_rates_array, D_low_rates_array, \
+                    punish_X_time_series, punish_Y_time_series, payoff_history_all, payoff_history_C, payoff_history_D, payoff_history_PC
+                #append_to_summary(Z, b, rate, Crate, CPrate, Drate)
 
         # ディレクトリの作成と保存
         for d in OUTPUT_DIRS: os.makedirs(d, exist_ok=True)
@@ -401,8 +487,9 @@ for R in [3.0]:
             (zip_buffer, ZIP_NAME, OUTPUT_DIRS[0]),
             (zip_buffer_C, ZIP_NAME_C, OUTPUT_DIRS[1]),
             (zip_buffer_CP, ZIP_NAME_CP, OUTPUT_DIRS[2]),
-            (zip_buffer_P, ZIP_NAME_PUNISH, OUTPUT_DIRS[3]),
-            (zip_buffer_payoff, ZIP_NAME_PAYOFF, OUTPUT_DIRS[4])
+            (zip_buffer_D, ZIP_NAME_D, OUTPUT_DIRS[3]),
+            (zip_buffer_P, ZIP_NAME_PUNISH, OUTPUT_DIRS[4]),
+            (zip_buffer_payoff, ZIP_NAME_PAYOFF, OUTPUT_DIRS[5])
         ]
         for buf, filename, target_dir in save_files:
             local_path = os.path.join(target_dir, filename)
@@ -410,7 +497,7 @@ for R in [3.0]:
                 f.write(buf.getvalue())
             print(f"{filename}が{local_path}に保存されました") 
             buf.close()  
-        del csv_buf, csv_buf_C, csv_buf_CP, csv_buf_P, csv_buf_Payoff
+        del csv_buf, csv_buf_C, csv_buf_CP, csv_buf_D, csv_buf_P, csv_buf_Payoff
 
 end = time.time()
 print("実行時間:", end - start, "秒")

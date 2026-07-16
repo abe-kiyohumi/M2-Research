@@ -1,0 +1,24 @@
+R= 3.0
+現在のZ値: 50 OUTPUT_DIR: ../../imageデータ/Z_b_change報酬罰/+1+0.2-1-0.2+1.6+0.6
+現在のb値: 0
+初期協力率: 0.5
+初期評判: 50.5705
+ステップ数 0 協力率 0.4082 | 罰回数 i: 5715, j: 5745, | 平均利得 Total: 2.99, C: 3.51, D: 2.70, PC: 3.31
+Traceback (most recent call last):
+  File "C:\Users\Admin\project\m2\image_code\+5+1-5-1+8+3\Z_b_reputation_image_punish_ninzu.py", line 420, in <module>
+    D_high_rates_array, D_low_rates_array) = simulation(record_index, omega)
+                                             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\project\m2\image_code\+5+1-5-1+8+3\Z_b_reputation_image_punish_ninzu.py", line 225, in simulation
+    count_C_CP = np.sum(grid==1) + np.sum(grid==2)
+                 ~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\project\venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 2485, in sum
+    return _wrapreduction(
+        a, np.add, 'sum', axis, dtype, out,
+        keepdims=keepdims, initial=initial, where=where
+    )
+  File "C:\Users\Admin\project\venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+🛑 KeyboardInterrupt: ユーザーによって強制終了されました。

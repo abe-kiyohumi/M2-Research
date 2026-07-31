@@ -3,199 +3,157 @@ import multiprocessing
 import subprocess
 import sys
 
-# 実行したいスクリプトのパス
-scripts_to_run = [
-    "../image_code/+3+1-3-1+5+3/glaph_single.py",
-    "../image_code/+3+1-3-1+5+3/glaph_single_C.py",
-    "../image_code/+3+1-3-1+5+3/glaph_single_CP.py",
-    "../image_code/+3+1-3-1+5+3/glaph_punish.py",
-
-    "../image_code/+5+1-5-1+5+1/glaph_single.py",
-    "../image_code/+5+1-5-1+5+1/glaph_single_C.py",
-    "../image_code/+5+1-5-1+5+1/glaph_single_CP.py",
-    "../image_code/+5+1-5-1+5+1/glaph_punish.py",
-
-    "../image_code/+5+1-5-1+8+3/glaph_single.py",
-    "../image_code/+5+1-5-1+8+3/glaph_single_C.py",
-    "../image_code/+5+1-5-1+8+3/glaph_single_CP.py",
-    "../image_code/+5+1-5-1+8+3/glaph_punish.py",
-
-    "../image_code/+5+1-5-1+10+5/glaph_single.py",
-    "../image_code/+5+1-5-1+10+5/glaph_single_C.py",
-    "../image_code/+5+1-5-1+10+5/glaph_single_CP.py",
-    "../image_code/+5+1-5-1+10+5/glaph_punish.py",
-
-    "../shunning_code/+3-1-3+1+5-3/glaph_single.py",
-    "../shunning_code/+3-1-3+1+5-3/glaph_single_C.py",
-    "../shunning_code/+3-1-3+1+5-3/glaph_single_CP.py",
-    "../shunning_code/+3-1-3+1+5-3/glaph_punish.py",
-
-    "../shunning_code/+5-1-5+1+5-1/glaph_single.py",
-    "../shunning_code/+5-1-5+1+5-1/glaph_single_C.py",
-    "../shunning_code/+5-1-5+1+5-1/glaph_single_CP.py",
-    "../shunning_code/+5-1-5+1+5-1/glaph_punish.py",
-
-    "../shunning_code/+5-1-5+1+8-3/glaph_single.py",
-    "../shunning_code/+5-1-5+1+8-3/glaph_single_C.py",
-    "../shunning_code/+5-1-5+1+8-3/glaph_single_CP.py",
-    "../shunning_code/+5-1-5+1+8-3/glaph_punish.py",
-
-    "../shunning_code/+5-1-5+1+10-5/glaph_single.py",
-    "../shunning_code/+5-1-5+1+10-5/glaph_single_C.py",
-    "../shunning_code/+5-1-5+1+10-5/glaph_single_CP.py",
-    "../shunning_code/+5-1-5+1+10-5/glaph_punish.py",
-
-    "../simple_code/+3+1-3+1+5+3/glaph_single.py",
-    "../simple_code/+3+1-3+1+5+3/glaph_single_C.py",
-    "../simple_code/+3+1-3+1+5+3/glaph_single_CP.py",
-    "../simple_code/+3+1-3+1+5+3/glaph_punish.py",
-
-    "../simple_code/+5+1-5+1+5+1/glaph_single.py",
-    "../simple_code/+5+1-5+1+5+1/glaph_single_C.py",
-    "../simple_code/+5+1-5+1+5+1/glaph_single_CP.py",
-    "../simple_code/+5+1-5+1+5+1/glaph_punish.py",
-
-    "../simple_code/+5+1-5+1+8+3/glaph_single.py",
-    "../simple_code/+5+1-5+1+8+3/glaph_single_C.py",
-    "../simple_code/+5+1-5+1+8+3/glaph_single_CP.py",
-    "../simple_code/+5+1-5+1+8+3/glaph_punish.py",
-
-    "../simple_code/+5+1-5+1+10+5/glaph_single.py",
-    "../simple_code/+5+1-5+1+10+5/glaph_single_C.py",
-    "../simple_code/+5+1-5+1+10+5/glaph_single_CP.py",
-    "../simple_code/+5+1-5+1+10+5/glaph_punish.py",
-
-    "../stern_code/+3-1-3+1+5-3/glaph_single.py",
-    "../stern_code/+3-1-3+1+5-3/glaph_single_C.py",
-    "../stern_code/+3-1-3+1+5-3/glaph_single_CP.py",
-    "../stern_code/+3-1-3+1+5-3/glaph_punish.py",
-
-    "../stern_code/+5-1-5+1+5-1/glaph_single.py",
-    "../stern_code/+5-1-5+1+5-1/glaph_single_C.py",
-    "../stern_code/+5-1-5+1+5-1/glaph_single_CP.py",
-    "../stern_code/+5-1-5+1+5-1/glaph_punish.py",
-
-    "../stern_code/+5-1-5+1+8-3/glaph_single.py",
-    "../stern_code/+5-1-5+1+8-3/glaph_single_C.py",
-    "../stern_code/+5-1-5+1+8-3/glaph_single_CP.py",
-    "../stern_code/+5-1-5+1+8-3/glaph_punish.py",
-
-    "../stern_code/+5-1-5+1+10-5/glaph_single.py",
-    "../stern_code/+5-1-5+1+10-5/glaph_single_C.py",
-    "../stern_code/+5-1-5+1+10-5/glaph_single_CP.py",
-    "../stern_code/+5-1-5+1+10-5/glaph_punish.py"
+# 実行したいモデルとパターンのリスト (exchange_all.pyと同様の構造)
+base_params = [
+    # (モデル名, PATTERN, dateデータフォルダ, glaphグラフフォルダ)
+    ("image", "+0.6+0.2-0.6-0.2+1+0.6", "imageデータ", "imageグラフ"),
+    ("image", "+1+0.2-1-0.2+1+0.2", "imageデータ", "imageグラフ"),
+    ("image", "+1+0.2-1-0.2+1.6+0.6", "imageデータ", "imageグラフ"),
+    ("image", "+1+0.2-1-0.2+2+1", "imageデータ", "imageグラフ"),
+    
+    ("shunning", "+0.6-0.2-0.6+0.2+1-0.6", "shunningデータ", "shunningグラフ"),
+    ("shunning", "+1-0.2-1+0.2+1-0.2", "shunningデータ", "shunningグラフ"),
+    ("shunning", "+1-0.2-1+0.2+1.6-0.6", "shunningデータ", "shunningグラフ"),
+    ("shunning", "+1-0.2-1+0.2+2-1", "shunningデータ", "shunningグラフ"),
+    
+    ("simple", "+0.6+0.2-0.6+0.2+1+0.6", "simpleデータ", "simpleグラフ"),
+    ("simple", "+1+0.2-1+0.2+1+0.2", "simpleデータ", "simpleグラフ"),
+    ("simple", "+1+0.2-1+0.2+1.6+0.6", "simpleデータ", "simpleグラフ"),
+    ("simple", "+1+0.2-1+0.2+2+1", "simpleデータ", "simpleグラフ"),
+    
+    ("stern", "+0.6-0.2-0.6+0.2+1-0.6", "sternデータ", "sternグラフ"),
+    ("stern", "+1-0.2-1+0.2+1-0.2", "sternデータ", "sternグラフ"),
+    ("stern", "+1-0.2-1+0.2+1.6-0.6", "sternデータ", "sternグラフ"),
+    ("stern", "+1-0.2-1+0.2+2-1", "sternデータ", "sternグラフ"),
 ]
 
-def run_script_to_log(script_path):
-    """個別のスクリプトを実行し、実行結果オブジェクト（dict）を返す"""
+omegas = [0.1, 0.01] 
+
+# 実行タスクの生成 (glaph_all.py へ渡す引数リスト)
+tasks_to_run = []
+for model, pat, date_dir, graph_dir in base_params:
+    for w in omegas:
+        tasks_to_run.append(("run_glaph_all.py", [model, pat, date_dir, graph_dir, str(w)]))
+
+# ==========================================
+# 並列実行 & ログ統合の仕組み
+# ==========================================
+def init_worker(lock):
+    global shared_lock
+    shared_lock = lock
+
+def run_script_to_log(task):
+    script_path, script_args = task
     abs_script_path = os.path.abspath(script_path)
     script_dir = os.path.dirname(abs_script_path)
     script_name = os.path.basename(abs_script_path)
     
-    # 拡張子を除いたファイル名を取得 (例: "glaph_single.py" -> "glaph_single")
-    script_stem = os.path.splitext(script_name)[0]
+    type_name = script_args[0]
+    pattern_name = script_args[1].replace('+', 'p').replace('-', 'm')
+    omega_val = script_args[4]
     
-    if not os.path.isdir(script_dir):
-        print(f"❌ フォルダが見つかりません: {script_dir}")
-        return {"path": script_path, "status": "FAILED", "code": -1, "msg": "フォルダが存在しません", "log_path": None}
-        
-    # スクリプト名に合わせた個別のログファイルパスを作成 (例: "glaph_single.log")
-    log_file_path = os.path.join(script_dir, f"{script_stem}.log")
-    print(f"🚀 [起動] {script_path}")
+    # ログは「log_glaph」フォルダに出力
+    log_dir = os.path.join(script_dir, "log_glaph")
+    os.makedirs(log_dir, exist_ok=True)
+    log_filename = f"glaph_{type_name}_{pattern_name}.log"
+    log_file_path = os.path.join(log_dir, log_filename)
+    
+    print(f"🚀 [起動] グラフ作成: {type_name} ({script_args[1]}) w={omega_val}")
     
     env = os.environ.copy()
     env["PYTHONIOENCODING"] = "utf-8"
     python_executable = sys.executable 
     
-    try:
-        with open(log_file_path, "w", encoding="utf-8") as log_file:
-            process = subprocess.Popen(
-                [python_executable, "-u", script_name],
-                cwd=script_dir,
-                stdout=log_file,
-                stderr=log_file,
-                env=env
-            )
-            
-            # プロセスの終了を待機
-            process.wait()
-            
-            # 終了ステータスの判定
-            if process.returncode == 0:
-                print(f"✅ [完了] {script_path}")
-                return {"path": script_path, "status": "SUCCESS", "code": 0, "msg": "正常終了", "log_path": log_file_path}
-            else:
-                print(f"❌ [失敗] {script_path} (Exit Code: {process.returncode})")
-                return {"path": script_path, "status": "FAILED", "code": process.returncode, "msg": f"エラー終了 (コード: {process.returncode})", "log_path": log_file_path}
-                
-    except KeyboardInterrupt:
-        print(f"🛑 [中断] {script_path}")
-        raise KeyboardInterrupt
-    except Exception as e:
-        print(f"❌ [例外] {script_path}: {e}")
-        return {"path": script_path, "status": "FAILED", "code": -1, "msg": str(e), "log_path": log_file_path}
-
-if __name__ == "__main__":
-    valid_scripts = []
-    missing_scripts = []
-
-    # 1. 存在するファイルと存在しないファイルを分類
-    for s in scripts_to_run:
-        if os.path.exists(s):
-            valid_scripts.append(s)
-        else:
-            missing_scripts.append(s)
-
-    num_cores = 10
-    print(f"=== 処理開始 (並列数: {num_cores} / 対象ファイル: {len(valid_scripts)} 件) ===")
-
-    results = []
-    pool = multiprocessing.Pool(processes=num_cores)
+    cmd = [python_executable, "-u", script_name] + [str(arg) for arg in script_args]
     
     try:
-        result_async = pool.map_async(run_script_to_log, valid_scripts)
+        result = subprocess.run(
+            cmd,
+            cwd=script_dir,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            env=env
+        )
+        
+        # 排他制御でログファイルに追記
+        with shared_lock:
+            with open(log_file_path, "a", encoding="utf-8") as f:
+                f.write(f"\n{'='*60}\n")
+                f.write(f"▶ START: omega={omega_val}\n")
+                f.write(f"{'='*60}\n")
+                f.write(result.stdout)
+                
+                if result.stderr:
+                    f.write("\n[STDERR - エラー出力]\n")
+                    f.write(result.stderr)
+                    
+                f.write(f"✅ END: omega={omega_val} (Exit Code: {result.returncode})\n")
+                f.write(f"{'='*60}\n")
+        
+        if result.returncode == 0:
+            print(f"✅ [完了] {type_name} ({script_args[1]}) w={omega_val}")
+            return {"task": task, "status": "SUCCESS"}
+        else:
+            print(f"❌ [失敗] {type_name} ({script_args[1]}) w={omega_val}")
+            return {"task": task, "status": "FAILED", "code": result.returncode}
+            
+    except Exception as e:
+        with shared_lock:
+            with open(log_file_path, "a", encoding="utf-8") as f:
+                f.write(f"\n❌ 例外発生 (w={omega_val}): {str(e)}\n")
+        return {"task": task, "status": "FAILED", "code": -1, "msg": str(e)}
+
+if __name__ == "__main__":
+    if not os.path.exists("run_glaph_all.py"):
+        print("❌ 'run_glaph_all.py' が同じディレクトリに見つかりません。")
+        sys.exit(1)
+
+    # 実行前に古いログファイルを初期化
+    log_dir = os.path.join(os.getcwd(), "log_glaph")
+    os.makedirs(log_dir, exist_ok=True)
+    for model, pat, _, _ in base_params:
+        pattern_name = pat.replace('+', 'p').replace('-', 'm')
+        log_filename = f"glaph_{model}_{pattern_name}.log"
+        log_file_path = os.path.join(log_dir, log_filename)
+        with open(log_file_path, "w", encoding="utf-8") as f:
+            f.write(f"=== グラフ作成ログ: {model} / {pat} ===\n")
+    
+    num_cores = 10  # 並列プロセス数[cite: 9]
+    print(f"=== 一括グラフ作成 開始 ===")
+    print(f"  ・並列プロセス数 : {num_cores}")
+    print(f"  ・総タスク数     : {len(tasks_to_run)} 件")
+    print(f"==========================")
+
+    manager = multiprocessing.Manager()
+    shared_lock = manager.Lock()
+    pool = multiprocessing.Pool(processes=num_cores, initializer=init_worker, initargs=(shared_lock,))
+    results = []
+    
+    try:
+        result_async = pool.map_async(run_script_to_log, tasks_to_run)
         results = result_async.get()
     except KeyboardInterrupt:
-        print("\n🛑 割り込みを検知しました。すべての実行ファイルを強制終了しています...")
+        print("\n🛑 割り込みを検知しました。全プロセスを強制終了しています...")
         pool.terminate()
         pool.join()
-        print("✅ 安全に停止しました。")
         sys.exit(1)
     else:
         pool.close()
         pool.join()
 
-    # 2. 実行結果の集計・最終レポートの出力
-    success_list = [r["path"] for r in results if r["status"] == "SUCCESS"]
-    failed_list = [r for r in results if r["status"] == "FAILED"]
-
+    # レポート表示
     print("\n" + "="*70)
-    print(" 📊 最終実行結果レポート")
+    print(" 📊 実行結果レポート")
     print("="*70)
-    print(f" 実行対象総数 : {len(scripts_to_run)} 件")
-    print(f"  ・ 正常終了  : {len(success_list)} 件")
-    print(f"  ・ 実行エラー: {len(failed_list)} 件")
-    print(f"  ・ ファイル無: {len(missing_scripts)} 件")
-    print("-" * 70)
-
-    # ❌ 実行エラーになったファイル一覧
-    if failed_list:
-        print("\n❌【実行エラーが発生したファイル】")
-        for item in failed_list:
-            print(f"  - {item['path']} ({item['msg']})")
-            if item.get("log_path"):
-                print(f"    └ ログ確認場所: {item['log_path']}")
-
-    # ⚠️ ファイルが存在せずスキップされた一覧
-    if missing_scripts:
-        print("\n⚠️【ファイルが存在しないためスキップされたパス】")
-        for path in missing_scripts:
-            print(f"  - {path}")
-
-    # ✅ 正常終了したファイル一覧
-    if success_list:
-        print("\n✅【正常終了したファイル】")
-        for path in success_list:
-            print(f"  - {path}")
-
-    print("\n" + "="*70)
+    success = [r for r in results if r["status"] == "SUCCESS"]
+    failed = [r for r in results if r["status"] == "FAILED"]
+    
+    print(f" 正常終了 : {len(success)} 件")
+    print(f" エラー   : {len(failed)} 件")
+    
+    if failed:
+        print("\n❌ エラーが発生したタスク:")
+        for item in failed:
+            args = item['task'][1]
+            print(f"  - {args[0]} / {args[1]} / w={args[4]}")

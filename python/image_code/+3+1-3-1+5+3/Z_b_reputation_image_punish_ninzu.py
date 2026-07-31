@@ -21,12 +21,12 @@ PATTERN = "+0.6+0.2-0.6-0.2+1+0.6"
 typePATTERN = "image"
 datePATTERN = "imageデータ"
 
-OUTPUT_DIR = f"../../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}"   
-OUTPUT_DIR_C = f"../../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/C"
-OUTPUT_DIR_CP = f"../../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/CP"
-OUTPUT_DIR_D = f"../../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/D"
-OUTPUT_DIR_PUNISH = f"../../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Punish"
-OUTPUT_DIR_PAYOFF = f"../../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Payoff"
+OUTPUT_DIR = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}"   
+OUTPUT_DIR_C = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/C"
+OUTPUT_DIR_CP = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/CP"
+OUTPUT_DIR_D = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/D"
+OUTPUT_DIR_PUNISH = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Punish"
+OUTPUT_DIR_PAYOFF = f"../../{datePATTERN}/Z_b_change報酬罰/{PATTERN}/Payoff"
 
 OUTPUT_DIRS = [OUTPUT_DIR, OUTPUT_DIR_C, OUTPUT_DIR_CP, OUTPUT_DIR_D, OUTPUT_DIR_PUNISH, OUTPUT_DIR_PAYOFF]
 

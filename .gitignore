@@ -11,6 +11,7 @@ simpleグラフ/
 simpleデータ/
 sternグラフ/
 sternデータ/
+powerpoint/
 
 # もし他に出力されるCSVや画像、NumPy配列があれば拡張子でも保護
 *.csv
@@ -18,3 +19,5 @@ sternデータ/
 *.jpg
 *.npy
 *.pkl
+*.pptx
+*.ppt

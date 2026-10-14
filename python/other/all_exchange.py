@@ -3,41 +3,78 @@ import multiprocessing
 import subprocess
 import sys
 
-# 実行したいモデルとパターンのリスト (元の all_exchange.py のパス情報から構築)[cite: 4]
+# 実行したいモデルとパターンのリスト (元の all_exchange.py のパス情報から構築)
 base_params = [
-    # Image Score
+    # (モデル名, PATTERN, dateデータフォルダ, glaphグラフフォルダ, タイプ)
+    ("image", "+3+1-3-1+5+3", "imageデータ"),
+    ("image", "+5+1-5-1+5+1", "imageデータ"),
+    ("image", "+5+1-5-1+8+3", "imageデータ"),
+    ("image", "+5+1-5-1+10+5", "imageデータ"),
+    
+    ("shunning", "+3-1-3+1+5-3", "shunningデータ"),
+    ("shunning", "+5-1-5+1+5-1", "shunningデータ"),
+    ("shunning", "+5-1-5+1+8-3", "shunningデータ"),
+    ("shunning", "+5-1-5+1+10-5", "shunningデータ"),
+    
+    ("simple", "+3+1-3+1+5+3", "simpleデータ"),
+    ("simple", "+5+1-5+1+5+1", "simpleデータ"),
+    ("simple", "+5+1-5+1+8+3", "simpleデータ"),
+    ("simple", "+5+1-5+1+10+5", "simpleデータ"),
+    
+    ("stern", "+3-1-3+1+5-3", "sternデータ"),
+    ("stern", "+5-1-5+1+5-1", "sternデータ"),
+    ("stern", "+5-1-5+1+8-3", "sternデータ"),
+    ("stern", "+5-1-5+1+10-5", "sternデータ"),
+
+    # (モデル名, PATTERN, dateデータフォルダ, glaphグラフフォルダ)
     ("image", "+0.6+0.2-0.6-0.2+1+0.6", "imageデータ"),
     ("image", "+1+0.2-1-0.2+1+0.2", "imageデータ"),
     ("image", "+1+0.2-1-0.2+1.6+0.6", "imageデータ"),
     ("image", "+1+0.2-1-0.2+2+1", "imageデータ"),
     
-    # Shunning
     ("shunning", "+0.6-0.2-0.6+0.2+1-0.6", "shunningデータ"),
     ("shunning", "+1-0.2-1+0.2+1-0.2", "shunningデータ"),
     ("shunning", "+1-0.2-1+0.2+1.6-0.6", "shunningデータ"),
     ("shunning", "+1-0.2-1+0.2+2-1", "shunningデータ"),
     
-    # Simple Standing
     ("simple", "+0.6+0.2-0.6+0.2+1+0.6", "simpleデータ"),
     ("simple", "+1+0.2-1+0.2+1+0.2", "simpleデータ"),
     ("simple", "+1+0.2-1+0.2+1.6+0.6", "simpleデータ"),
     ("simple", "+1+0.2-1+0.2+2+1", "simpleデータ"),
     
-    # Stern Judging
     ("stern", "+0.6-0.2-0.6+0.2+1-0.6", "sternデータ"),
     ("stern", "+1-0.2-1+0.2+1-0.2", "sternデータ"),
     ("stern", "+1-0.2-1+0.2+1.6-0.6", "sternデータ"),
-    ("stern", "+1-0.2-1+0.2+2-1", "sternデータ"),
+    ("stern", "+1-0.2-1+0.2+2-1", "sternデータ"), 
 ]
 
-# 処理する omega の値 (両方処理させたい場合は追加してください)
-omegas = [0.1, 0.01] 
+# ==========================================
+# 実行設定
+#   MODE = "legacy"         : 従来データ（seed なし）を base_params × omegas で処理
+#   MODE = "representative" / "controls" : all.py と同じ条件セット（seed 付き）。
+#       改修版 run_simulation.py の出力は埋め済みなので自動でスキップされる（旧形式のみ処理）
+# ==========================================
+from experiment_config import REPRESENTATIVE, CONTROLS, DATA_DIR, make_variant
 
-# 実行タスクの生成
+MODE = "legacy"
+SEEDS = [0]
+omegas = [0.1, 0.01]
+
 tasks_to_run = []
-for model, pat, date in base_params:
-    for w in omegas:
-        tasks_to_run.append(("run_exchange_all.py", [model, pat, date, str(w)]))
+if MODE == "legacy":
+    for model, pat, date in base_params:
+        for w in omegas:
+            tasks_to_run.append(("run_exchange_all.py", [model, pat, date, str(w)]))
+else:
+    table = REPRESENTATIVE if MODE == "representative" else CONTROLS
+    for grp, model, pat, Z, w, bs, opts in table:
+        variant = make_variant(opts.get("steps", 10000), opts.get("reset_rep", "none"),
+                               opts.get("stop", "legacy"), opts.get("rep_fix", False))
+        for seed in SEEDS:
+            args = [model, pat, DATA_DIR[model], str(w), "--seed", str(seed), "--zs", str(Z)]
+            if variant:
+                args += ["--variant", variant]
+            tasks_to_run.append(("run_exchange_all.py", args))
 
 # ==========================================
 # 並列実行 & ログ統合の仕組み
@@ -160,5 +197,4 @@ if __name__ == "__main__":
     if failed:
         print("\n❌ エラーが発生したタスク:")
         for item in failed:
-            args = item['task'][1]
-            print(f"  - {args[0]} / {args[1]} / w={args[3]}")
+            print("  - " + " ".join(item['task'][1]))

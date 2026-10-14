@@ -1,0 +1,2008 @@
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning10000協力率_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning10000協力率_C_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern10000協力率_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern10000協力率_C_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: shunning | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\shunning_穏健型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\shunning_穏健型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\shunning_穏健型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\shunning_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 shunning / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: stern | pattern: +3-1-3+1+5-3 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3\stern_穏健型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/C\stern_穏健型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/PC\stern_穏健型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../sternグラフ/Z_change_協力率変遷/+3-1-3+1+5-3/Punish\stern_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 stern / +3-1-3+1+5-3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================

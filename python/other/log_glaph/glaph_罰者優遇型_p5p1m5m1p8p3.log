@@ -1,0 +1,464 @@
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.1 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.01 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image10000協力率_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image10000協力率_C_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.1 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.01 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.1 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.01 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.1 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: image | pattern: +5+1-5-1+8+3 | omega: 0.01 | type: 罰者優遇型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3\image_罰者優遇型_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/C\image_罰者優遇型_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/PC\image_罰者優遇型_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+5+1-5-1+8+3/Punish\image_罰者優遇型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 image / +5+1-5-1+8+3 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================

@@ -1,0 +1,540 @@
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: image | pattern: +0.6+0.2-0.6-0.2+1+0.6 | omega: 0.1 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 image / +0.6+0.2-0.6-0.2+1+0.6 / omega=0.1 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: image | pattern: +0.6+0.2-0.6-0.2+1+0.6 | omega: 0.01 | type: 穏健型
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6\image10000協力率_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/C\image10000協力率_C_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/PC\image10000協力率_PC_まとめ_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../imageグラフ/Z_change_協力率変遷/+0.6+0.2-0.6-0.2+1+0.6/Punish\image_穏健型_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 image / +0.6+0.2-0.6-0.2+1+0.6 / omega=0.01 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:85: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(file_path, bbox_inches='tight')
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:141: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 31311 (\N{CJK UNIFIED IDEOGRAPH-7A4F}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 20581 (\N{CJK UNIFIED IDEOGRAPH-5065}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:144: UserWarning: Glyph 22411 (\N{CJK UNIFIED IDEOGRAPH-578B}) missing from font(s) DejaVu Sans.
+  plt.savefig(out_path)
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================

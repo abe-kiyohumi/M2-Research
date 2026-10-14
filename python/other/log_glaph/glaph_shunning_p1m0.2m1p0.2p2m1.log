@@ -55,6 +55,10 @@
 ✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+1-0.2-1+0.2+2-1/Punish\shunning罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
 
 🎉 shunning / +1-0.2-1+0.2+2-1 / omega=0.1 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:83: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(file_path, bbox_inches='tight')
 ✅ END: omega=0.1 (Exit Code: 0)
 ============================================================
 
@@ -113,5 +117,9 @@
 ✅ 保存(Punish Punish_Count_j): ../../shunningグラフ/Z_change_協力率変遷/+1-0.2-1+0.2+2-1/Punish\shunning罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
 
 🎉 shunning / +1-0.2-1+0.2+2-1 / omega=0.01 の全グラフ作成が完了しました！
+
+[STDERR - エラー出力]
+C:\Users\Admin\project\m2\python\other\run_glaph_all.py:83: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(file_path, bbox_inches='tight')
 ✅ END: omega=0.01 (Exit Code: 0)
 ============================================================

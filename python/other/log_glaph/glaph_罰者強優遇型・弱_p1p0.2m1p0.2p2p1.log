@@ -1,0 +1,116 @@
+
+============================================================
+▶ START: omega=0.1
+============================================================
+🔧 [グラフ設定] model: simple | pattern: +1+0.2-1+0.2+2+1 | omega: 0.1 | type: 罰者強優遇型・弱
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=50_r=3.0_omega=0.1.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=50_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=50_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.1.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=60_r=3.0_omega=0.1.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=60_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=60_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.1.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=70_r=3.0_omega=0.1.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=70_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=70_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.1.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=80_r=3.0_omega=0.1.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=80_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=80_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.1.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=90_r=3.0_omega=0.1.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=90_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=90_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.1.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=95_r=3.0_omega=0.1.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=95_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=95_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.1.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=98_r=3.0_omega=0.1.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=98_r=3.0_omega=0.1.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=98_r=3.0_omega=0.1.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.1.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.1.png
+
+🎉 simple / +1+0.2-1+0.2+2+1 / omega=0.1 の全グラフ作成が完了しました！
+✅ END: omega=0.1 (Exit Code: 0)
+============================================================
+
+============================================================
+▶ START: omega=0.01
+============================================================
+🔧 [グラフ設定] model: simple | pattern: +1+0.2-1+0.2+2+1 | omega: 0.01 | type: 罰者強優遇型・弱
+
+--- Z=50 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=50_r=3.0_omega=0.01.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=50_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=50_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=50_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=50_r=3.0_punish_j_omega=0.01.png
+
+--- Z=60 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=60_r=3.0_omega=0.01.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=60_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=60_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=60_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=60_r=3.0_punish_j_omega=0.01.png
+
+--- Z=70 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=70_r=3.0_omega=0.01.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=70_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=70_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=70_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=70_r=3.0_punish_j_omega=0.01.png
+
+--- Z=80 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=80_r=3.0_omega=0.01.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=80_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=80_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=80_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=80_r=3.0_punish_j_omega=0.01.png
+
+--- Z=90 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=90_r=3.0_omega=0.01.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=90_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=90_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=90_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=90_r=3.0_punish_j_omega=0.01.png
+
+--- Z=95 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=95_r=3.0_omega=0.01.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=95_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=95_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=95_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=95_r=3.0_punish_j_omega=0.01.png
+
+--- Z=98 のグラフ作成開始 ---
+✅ 保存(Base): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1\simple_罰者強優遇型・弱_Z=98_r=3.0_omega=0.01.png
+✅ 保存(C): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/C\simple_罰者強優遇型・弱_C_Z=98_r=3.0_omega=0.01.png
+✅ 保存(PC): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/PC\simple_罰者強優遇型・弱_PC_Z=98_r=3.0_omega=0.01.png
+✅ 保存(Punish Punish_Count_i): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=98_r=3.0_punish_i_omega=0.01.png
+✅ 保存(Punish Punish_Count_j): ../../simpleグラフ/Z_change_協力率変遷/+1+0.2-1+0.2+2+1/Punish\simple_罰者強優遇型・弱_罰の回数グラフ_Z=98_r=3.0_punish_j_omega=0.01.png
+
+🎉 simple / +1+0.2-1+0.2+2+1 / omega=0.01 の全グラフ作成が完了しました！
+✅ END: omega=0.01 (Exit Code: 0)
+============================================================
